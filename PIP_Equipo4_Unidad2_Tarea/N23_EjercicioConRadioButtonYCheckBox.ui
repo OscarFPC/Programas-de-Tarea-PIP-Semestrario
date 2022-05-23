@@ -1,0 +1,1769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1232</width>
+    <height>992</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1231</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../PIP_Equipo4_Unidad2_Clase/imagenes/uat.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>770</y>
+      <width>241</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../PIP_Equipo4_Unidad2_Clase/imagenes/Equipo4.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="gb_1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>561</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+    </property>
+    <property name="title">
+     <string>Motherboard</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <widget class="QRadioButton" name="rb_m1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>541</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>Gigabyte GA-A320M-S2H Motherboard, AMD Ryzen AM4, MicroATX, 2xDDR4,
+ HDMI, Realtek ALC887, 3xPCIe, USB3.1 Gen 1, LAN</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_m2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>541</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>GIGABYTE B450 AORUS PRO WIFI (AMD Ryzen AM4/M.2 Thermal Guard 
+with Onboard WIFI/HDMI/DVI/USB 3.1 Gen 2/DDR4/ATX/Motherboard)</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_m3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>190</y>
+       <width>541</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>Asus Motherboard X570 AMD ROG Strix X570-E Gaming WiFi II, ATX, PCIe 4.0,
+ WiFi 6E (802.11ax), 2.5 GB Ethernet, cancelación de Ruido AI bidireccional, 
+Dual M.2 y Aura Sync</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="gb_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>400</y>
+      <width>561</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+    </property>
+    <property name="title">
+     <string>CPU</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <widget class="QRadioButton" name="rb_cpu1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>541</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>Procesador Intel® Core™ i3-1210U (caché de 10 MB, hasta 4,40 GHz)</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_cpu2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>541</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>Procesador Intel® Core™ i5-1250P (caché de 12 MB, hasta 4,40 GHz)</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_cpu3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>541</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>Procesador Intel® Core™ i7-1260U (12 MB de caché, hasta 4,70 GHz)</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_cpu4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>150</y>
+       <width>541</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>Procesador Intel® Core™ i9-12900E (caché de 30 MB, hasta 5,00 GHz)</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_cpu5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>190</y>
+       <width>541</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>Procesador Intel® Core™ i9-10900X serie X (caché de 19,25 MB y 3,70 GHz)</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="gb_3">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>110</y>
+      <width>291</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+    </property>
+    <property name="title">
+     <string>RAM</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <widget class="QRadioButton" name="rb_ram1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>DDR4 1X8</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_ram2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>DDR4 2X4</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_ram3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>DDR4 1X16</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_ram4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>150</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>DDR4 2X8</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_ram5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>190</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>DDR4 1X32</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_ram6">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>30</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>DDR4 2X16</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_ram7">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>70</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>DDR4 1X64</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_ram8">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>110</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>DDR4 2X32</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_ram9">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>150</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>DDR4 1X128</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_ram10">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>190</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>DDR4 2X64</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="gb_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>650</y>
+      <width>561</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+    </property>
+    <property name="title">
+     <string>Almacenamiento</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <widget class="QRadioButton" name="rb_a1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>HDD</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_a4">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>30</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>SSD PCI-e</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_a2">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>30</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>SSD</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_a3">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>30</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>SSD M.2</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>531</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+     </property>
+     <property name="title">
+      <string>Capacidad</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <widget class="QRadioButton" name="rb_c1">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>10</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+      </property>
+      <property name="text">
+       <string>500 GB</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="rb_c2">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>10</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+      </property>
+      <property name="text">
+       <string>1TB</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="rb_c3">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>10</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+      </property>
+      <property name="text">
+       <string>2TB</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="gb_5">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>390</y>
+      <width>621</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+    </property>
+    <property name="title">
+     <string>Fuente de poder</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <widget class="QRadioButton" name="rb_f1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>591</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>Thermaltake Toughpower GX1 80 PLUS Gold, 24-pin ATX, 120mm, 500W</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_f2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>591</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>In Win P55F 80 PLUS Gold, 24-pines ATX, 120mm, 550W</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_f3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>591</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>EVGA 600 GD 80 PLUS Gold, 24-pin ATX, 120mm, 600W</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_f4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>150</y>
+       <width>591</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>ASUS ROG-STRIX-650G 80 PLUS Gold, 20+4 pin ATX, 135mm, 650W</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_f5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>190</y>
+       <width>591</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>Thermaltake Toughpower GX1 RGB 80 PLUS Gold, 24-pin ATX, 120mm, 700W</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_f6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>230</y>
+       <width>591</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>Gigabyte P750GM 80 PLUS Gold, 20+4 pin ATX, 120mm, 750W</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_f7">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>270</y>
+       <width>591</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>Gigabyte P850GM 80 PLUS Gold, 20+4 pin ATX, 120mm, 850W</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_f8">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>310</y>
+       <width>591</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>Gigabyte P1000GM 80 PLUS Gold, 20+4 pin ATX, 120mm, 1000W</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_f9">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>350</y>
+       <width>591</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>EVGA SuperNOVA 1300 G2 80 PLUS Gold, ATX, 140mm, 1300W</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="gb_6">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>110</y>
+      <width>321</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+    </property>
+    <property name="title">
+     <string>GPU</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <widget class="QRadioButton" name="rb_gpu1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>291</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>MSI GeForce GTX 1060 Gaming X 3G</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_gpu2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>291</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>Evga GeForce GTX 1070 SC Gaming</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_gpu3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>291</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>Nvidia Geforce RTX 3070</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_gpu4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>150</y>
+       <width>291</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>MSI GeForce RTX 2060 Gaming Z</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_gpu5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>190</y>
+       <width>291</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>GIGABYTE GeForce GTX 1650 OC</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_gpu6">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>230</y>
+       <width>291</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>9</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>Nvidia Geforce RTX 3090.</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="gb_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>800</y>
+      <width>871</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid white;
+color: rgb(255, 255, 255);
+border-radius: 10px;</string>
+    </property>
+    <property name="title">
+     <string>Agregar</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <widget class="QCheckBox" name="cb_agregar1">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid white;
+border-radius: 3px;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Gabinete</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cb_agregar2">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>30</y>
+       <width>201</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid white;
+border-radius: 3px;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Kit de ventiladores</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cb_agregar3">
+     <property name="geometry">
+      <rect>
+       <x>360</x>
+       <y>30</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid white;
+border-radius: 3px;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Monitor</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cb_agregar4">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>30</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid white;
+border-radius: 3px;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Mouse</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cb_agregar5">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>30</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid white;
+border-radius: 3px;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Teclado</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cb_agregar7">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>80</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid white;
+border-radius: 3px;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Bocinas</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cb_agregar8">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>80</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid white;
+border-radius: 3px;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Mousepad</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cb_agregar9">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>80</y>
+       <width>131</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid white;
+border-radius: 3px;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Audifonos</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cb_agregar10">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>80</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid white;
+border-radius: 3px;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Camara</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cb_agregar11">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>80</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid white;
+border-radius: 3px;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Capturadora</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cb_agregar6">
+     <property name="geometry">
+      <rect>
+       <x>690</x>
+       <y>30</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid white;
+border-radius: 3px;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Silla Gamer</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="cb_agregar12">
+     <property name="geometry">
+      <rect>
+       <x>690</x>
+       <y>80</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border: 1px solid white;
+border-radius: 3px;
+color: rgb(255, 255, 255);
+background-color: rgb(0, 0, 0);</string>
+     </property>
+     <property name="text">
+      <string>Stream Desk</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btn_ver">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>870</y>
+      <width>161</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid black;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+background-color: rgb(0, 255, 0);
+</string>
+    </property>
+    <property name="text">
+     <string>Ver
+Seleccion</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_reiniciar">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>800</y>
+      <width>161</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 3px solid black;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+background-color: rgb(255, 0, 0);
+</string>
+    </property>
+    <property name="text">
+     <string>Volver a
+Seleccionar</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-5</y>
+      <width>1231</width>
+      <height>971</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>imagenes/wallhaven-r2x6lw_1920x1080.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_mostrar">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>110</y>
+      <width>1211</width>
+      <height>691</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Lucida Bright</family>
+      <pointsize>14</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 10px solid black;
+background-color: rgb(152, 35, 101);
+color: rgb(255, 255, 255);
+border-radius: 15px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>label_3</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>gb_1</zorder>
+   <zorder>gb_2</zorder>
+   <zorder>gb_3</zorder>
+   <zorder>gb_4</zorder>
+   <zorder>gb_5</zorder>
+   <zorder>gb_6</zorder>
+   <zorder>gb_7</zorder>
+   <zorder>btn_ver</zorder>
+   <zorder>btn_reiniciar</zorder>
+   <zorder>lbl_mostrar</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1232</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

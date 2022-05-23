@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="IMGs">
+    <file>Imagenes/PersonajesBrawhalla/WuShang.png</file>
+    <file>Imagenes/PersonajesBrawhalla/Azoth.jpg</file>
+    <file>Imagenes/PersonajesBrawhalla/Bodvar.png</file>
+    <file>Imagenes/PersonajesBrawhalla/Diana.png</file>
+    <file>Imagenes/PersonajesBrawhalla/Dusk.png</file>
+    <file>Imagenes/PersonajesBrawhalla/Hattori.png</file>
+    <file>Imagenes/PersonajesBrawhalla/Magyar.png</file>
+    <file>Imagenes/PersonajesBrawhalla/Mordex.png</file>
+    <file>Imagenes/PersonajesBrawhalla/Nix.jpg</file>
+    <file>Imagenes/PersonajesBrawhalla/Xull.png</file>
+    <file>Imagenes/uat.png</file>
+    <file>Imagenes/WhatsApp Image 2022-01-28 at 2.27.57 PM_preview_rev_1.png</file>
+  </qresource>
+</RCC>
