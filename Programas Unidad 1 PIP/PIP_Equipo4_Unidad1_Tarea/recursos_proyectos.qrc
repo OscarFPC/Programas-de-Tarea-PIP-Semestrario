@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="imgUAT">
+    <file>imagenes/Equipo4.png</file>
+    <file>imagenes/fians.png</file>
+    <file>imagenes/uat.png</file>
+  </qresource>
+</RCC>

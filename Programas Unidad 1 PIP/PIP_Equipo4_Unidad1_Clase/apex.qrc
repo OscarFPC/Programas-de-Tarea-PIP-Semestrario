@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="personajes">
+    <file>0logo.jpg</file>
+    <file>0Apex.jpg</file>
+    <file>1pelona.jpg</file>
+    <file>2chispitas.jpg</file>
+    <file>3monachina.jpg</file>
+    <file>4drogadicto.jpg</file>
+    <file>5odin.jpg</file>
+    <file>6maquina.jpg</file>
+  </qresource>
+</RCC>
